@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faith Resource Co. | Partner With Us</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      font-family:'Inter',sans-serif;
+      background:#F5F1EA;
+      color:#2B2B2B;
+      line-height:1.6;
+    }
+
+    h1,h2,h3{font-family:'Cormorant Garamond',serif;}
+
+    .container{width:90%;max-width:1200px;margin:auto;}
+
+    /* NAVBAR */
+    .navbar{
+      background:#F5F1EA;
+      border-bottom:1px solid #DDD4C8;
+      padding:15px 0;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    .nav-content{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .logo{
+      font-size:30px;
+      font-family:'Cormorant+Garamond',serif;
+    }
+
+    .nav-links{
+      display:flex;
+      gap:20px;
+    }
+
+    .nav-links a{
+      text-decoration:none;
+      color:#2B2B2B;
+      font-weight:500;
+    }
+
+    /* HERO */
+    .hero{
+      padding:100px 0;
+      text-align:center;
+      background:linear-gradient(to bottom,#E7E1D8,#F5F1EA);
+    }
+
+    .hero h1{
+      font-size:64px;
+    }
+
+    .hero p{
+      max-width:750px;
+      margin:auto;
+      color:#5C544C;
+      font-size:18px;
+    }
+
+    /* CONTENT */
+    .section{
+      padding:80px 0;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:25px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.06);
+    }
+
+    .card h3{
+      font-size:28px;
+      margin-bottom:10px;
+    }
+
+    .card p{
+      color:#5C544C;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      margin-top:15px;
+      padding:14px 22px;
+      border-radius:14px;
+      text-decoration:none;
+      font-weight:500;
+      background:#2B2B2B;
+      color:white;
+      min-height:48px;
+    }
+
+    /* FOOTER */
+    footer{
+      padding:40px 0;
+      border-top:1px solid #DDD4C8;
+    }
+
+    .footer-content{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    .socials{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .socials a{
+      text-decoration:none;
+      color:#6B6259;
+    }
+
+    @media(max-width:768px){
+      .hero h1{font-size:42px;}
+      .footer-content{
+        flex-direction:column;
+        text-align:center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="container nav-content">
+
+    <div class="logo">Faith Resource Co.</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shoponline.html">Shop</a>
+      <a href="learn-more.html">Learn More</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Partner With Us</h1>
+    <p>
+      Join us in expanding access to Christian resources across South Africa through sponsorships, partnerships, and ministry collaboration.
+    </p>
+  </div>
+</section>
+
+<!-- PARTNERSHIP OPTIONS -->
+<section class="section">
+  <div class="container">
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Sponsorships</h3>
+        <p>Support the distribution of Christian books and resources to communities in need.</p>
+        <a class="btn" href="https://wa.me/27123456789?text=I%20am%20interested%20in%20sponsorship">Get Involved</a>
+      </div>
+
+      <div class="card">
+        <h3>Church Partnerships</h3>
+        <p>Collaborate with us to supply books, devotionals, and teaching materials.</p>
+        <a class="btn" href="https://wa.me/27123456789?text=I%20want%20to%20partner%20with%20my%20church">Partner</a>
+      </div>
+
+      <div class="card">
+        <h3>Bulk Orders</h3>
+        <p>Schools, ministries, and groups can request bulk Christian resources.</p>
+        <a class="btn" href="https://wa.me/27123456789?text=I%20want%20to%20place%20a%20bulk%20order">Request</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-content">
+
+    <div>
+      <h3>Faith Resource Co.</h3>
+      <p>Resources Rooted in Faith.</p>
+    </div>
+
+    <div class="socials">
+      <a href="https://instagram.com">Instagram</a>
+      <a href="https://facebook.com">Facebook</a>
+      <a href="https://wa.me/27815620614">WhatsApp</a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
