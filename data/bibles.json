@@ -8,14 +8,14 @@
       {
         "name": "Amplified Study Bible",
         "price": 1199,
-        "image": "/images/bibles/amp/study.jpg",
+        "image": "images/bibles/amp/study.jpg",
         "desc": "Comprehensive study notes, commentary, maps, articles, and verse explanations."
       },
 
       {
         "name": "Amplified Large Print Bible",
         "price": 599,
-        "image": "/images/bibles/amp/large.jpg",
+        "image": "images/bibles/amp/large.jpg",
         "desc": "Easy-to-read large print edition ideal for daily reading and study."
       },
 
@@ -29,49 +29,49 @@
       {
         "name": "Amplified Everyday Life Bible",
         "price": 670,
-        "image": "/images/bibles/amp/everyday.jpg",
+        "image": "images/bibles/amp/everyday.jpg",
         "desc": "Features teachings and practical insights for applying Scripture in daily life."
       },
 
       {
         "name": "Amplified Journal the Word Bible",
         "price": 749,
-        "image": "/images/bibles/amp/journal.jpg",
+        "image": "images/bibles/amp/journal.jpg",
         "desc": "Wide margins for note-taking, journaling, and personal reflections."
       },
 
       {
         "name": "Amplified Thinline Bible",
         "price": 525,
-        "image": "/images/bibles/amp/thinline.jpg",
+        "image": "images/bibles/amp/thinline.jpg",
         "desc": "Slim and lightweight design without sacrificing readability."
       },
 
       {
         "name": "Amplified Personal Size Bible",
         "price": 599,
-        "image": "/images/bibles/amp/personal.jpg",
+        "image": "images/bibles/amp/personal.jpg",
         "desc": "Comfortable size for both personal study and church use."
       },
 
       {
         "name": "Amplified Outreach Bible",
         "price": 299,
-        "image": "/images/bibles/amp/outreach.jpg",
+        "image": "images/bibles/amp/outreach.jpg",
         "desc": "Affordable edition ideal for evangelism, ministries, and gifting."
       },
 
       {
         "name": "Amplified Parallel Bible",
         "price": 1499,
-        "image": "/images/bibles/amp/parallel.jpg",
+        "image": "images/bibles/amp/parallel.jpg",
         "desc": "Compare the Amplified Bible alongside other popular translations."
       },
 
       {
         "name": "Amplified Large Print Reference Bible",
         "price": 899,
-        "image": "/images/bibles/amp/reference.jpg",
+        "image": "images/bibles/amp/reference.jpg",
         "desc": "Large print text combined with cross-references and study aids."
       }
 
@@ -87,70 +87,70 @@
     {
       "name": "KJV Study Bible",
       "price": 1100,
-      "image": "/images/bibles/kjv/study.jpg",
+      "image": "images/bibles/kjv/study.jpg",
       "desc": "Comprehensive study notes, maps, articles, and references for deeper Bible study."
     },
 
     {
       "name": "KJV Bible Giant Print Standard Faux Leather",
       "price": 620,
-      "image": "/images/bibles/kjv/Faux Leather giant.jpg",
+      "image": "images/bibles/kjv/Faux Leather giant.jpg",
       "desc": "Large, easy-to-read text ideal for daily reading and church use."
     },
 
     {
       "name": "KJV Reference Bible",
       "price": 799,
-      "image": "/images/bibles/kjv/reference.jpg",
+      "image": "images/bibles/kjv/reference.jpg",
       "desc": "Features extensive cross-references and study tools."
     },
 
     {
       "name": "KJV Personal Size Bible",
       "price": 550,
-      "image": "/images/bibles/kjv/personal.jpg",
+      "image": "images/bibles/kjv/personal.jpg",
       "desc": "Comfortable size for both personal devotion and church attendance."
     },
 
     {
       "name": "KJV Compact Bible",
       "price": 399,
-      "image": "/images/bibles/kjv/compact.jpg",
+      "image": "images/bibles/kjv/compact.jpg",
       "desc": "Portable edition designed for travel and everyday carry."
     },
 
     {
       "name": "KJV Journal Bible",
       "price": 699,
-      "image": "/images/bibles/kjv/journal.jpg",
+      "image": "images/bibles/kjv/journal.jpg",
       "desc": "Wide margins for note-taking, prayer journaling, and sermon notes."
     },
 
     {
       "name": "KJV Family Bible",
       "price": 1499,
-      "image": "/images/bibles/kjv/family.jpg",
+      "image": "images/bibles/kjv/family.jpg",
       "desc": "Beautiful heirloom edition designed to record family history and milestones."
     },
 
     {
       "name": "KJV Outreach Bible",
       "price": 249,
-      "image": "/images/bibles/kjv/outreach.jpg",
+      "image": "images/bibles/kjv/outreach.jpg",
       "desc": "Affordable edition ideal for evangelism, outreach, and gifting."
     },
 
     {
       "name": "KJV Large Print Reference Bible",
       "price": 899,
-      "image": "/images/bibles/kjv/large-reference.jpg",
+      "image": "images/bibles/kjv/large-reference.jpg",
       "desc": "Combines large print readability with helpful study references."
     },
 
     {
       "name": "KJV Deluxe Gift Bible",
       "price": 749,
-      "image": "/images/bibles/kjv/gift.jpg",
+      "image": "images/bibles/kjv/gift.jpg",
       "desc": "Elegant presentation Bible suitable for baptisms, confirmations, and special occasions."
     }
 
