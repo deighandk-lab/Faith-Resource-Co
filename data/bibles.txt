@@ -1,0 +1,109 @@
+{
+  "AMP": {
+    "title": "Amplified Bible (AMP)",
+    "description": "The Amplified Bible expands Scripture by including additional meanings of Hebrew, Aramaic, and Greek words. It is ideal for deeper Bible study and spiritual understanding.",
+    "products": [
+      {
+        "name": "Amplified Study Bible",
+        "price": 1199,
+        "image": "/images/bibles/amp/study.jpg",
+        "desc": "Full study notes, commentary, and verse explanations."
+      },
+      {
+        "name": "Amplified Large Print Bible",
+        "price": 599,
+        "image": "/images/bibles/amp/large.jpg",
+        "desc": "Easy-to-read large print edition for daily reading."
+      },
+      {
+        "name": "Amplified Compact Bible",
+        "price": 385,
+        "image": "/images/bibles/amp/compact.jpg",
+        "desc": "Small, portable Bible ideal for travel and church use."
+      },
+      {
+        "name": "Amplified Everyday Life Bible",
+        "price": 670,
+        "image": "/images/bibles/amp/everyday.jpg",
+        "desc": "Practical study Bible focused on real-life application."
+      }
+    ]
+  },
+
+  "KJV": {
+    "title": "King James Version (KJV)",
+    "description": "The classic 1611 translation known for its poetic and traditional English language.",
+    "products": [
+      {
+        "name": "KJV Study Bible",
+        "price": 950,
+        "image": "/images/bibles/kjv/study.jpg",
+        "desc": "Includes commentary, maps, and study notes."
+      },
+      {
+        "name": "KJV Giant Print Bible",
+        "price": 620,
+        "image": "/images/bibles/kjv/giant.jpg",
+        "desc": "Large readable text for comfortable reading."
+      }
+    ]
+  },
+
+  "NLT": {
+    "title": "New Living Translation (NLT)",
+    "description": "A clear and easy-to-understand modern English translation designed for everyday reading.",
+    "products": [
+      {
+        "name": "NLT Life Application Bible",
+        "price": 1100,
+        "image": "/images/bibles/nlt/life.jpg",
+        "desc": "Helps apply Scripture to real-life situations."
+      },
+      {
+        "name": "NLT Compact Bible",
+        "price": 420,
+        "image": "/images/bibles/nlt/compact.jpg",
+        "desc": "Lightweight and portable edition."
+      }
+    ]
+  },
+
+  "NIV": {
+    "title": "New International Version (NIV)",
+    "description": "One of the most widely used modern translations balancing accuracy and readability.",
+    "products": [
+      {
+        "name": "NIV Study Bible",
+        "price": 1150,
+        "image": "/images/bibles/niv/study.jpg",
+        "desc": "Comprehensive study notes and references."
+      }
+    ]
+  },
+
+  "NKJV": {
+    "title": "New King James Version (NKJV)",
+    "description": "Preserves the beauty of the KJV while updating language for modern readers.",
+    "products": [
+      {
+        "name": "NKJV Reference Bible",
+        "price": 890,
+        "image": "/images/bibles/nkjv/reference.jpg",
+        "desc": "Cross-references and study tools included."
+      }
+    ]
+  },
+
+  "MSG": {
+    "title": "The Message (MSG)",
+    "description": "A modern paraphrase that presents Scripture in everyday conversational language.",
+    "products": [
+      {
+        "name": "The Message Bible",
+        "price": 750,
+        "image": "/images/bibles/msg/full.jpg",
+        "desc": "Easy-to-read contemporary wording."
+      }
+    ]
+  }
+}

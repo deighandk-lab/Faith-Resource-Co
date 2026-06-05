@@ -1,0 +1,461 @@
+{
+  "AMP": {
+    "title": "Amplified Bible (AMP)",
+    "description": "The Amplified Bible expands Scripture by including additional meanings of Hebrew, Aramaic, and Greek words. It is ideal for deeper Bible study, word analysis, and gaining a fuller understanding of God's Word.",
+
+    "products": [
+
+      {
+        "name": "Amplified Study Bible",
+        "price": 1199,
+        "image": "/images/bibles/amp/study.jpg",
+        "desc": "Comprehensive study notes, commentary, maps, articles, and verse explanations."
+      },
+
+      {
+        "name": "Amplified Large Print Bible",
+        "price": 599,
+        "image": "/images/bibles/amp/large.jpg",
+        "desc": "Easy-to-read large print edition ideal for daily reading and study."
+      },
+
+      {
+        "name": "Amplified Compact Bible",
+        "price": 385,
+        "image": "/images/bibles/amp/compact.jpg",
+        "desc": "Portable edition perfect for travel, church, and personal devotion."
+      },
+
+      {
+        "name": "Amplified Everyday Life Bible",
+        "price": 670,
+        "image": "/images/bibles/amp/everyday.jpg",
+        "desc": "Features teachings and practical insights for applying Scripture in daily life."
+      },
+
+      {
+        "name": "Amplified Journal the Word Bible",
+        "price": 749,
+        "image": "/images/bibles/amp/journal.jpg",
+        "desc": "Wide margins for note-taking, journaling, and personal reflections."
+      },
+
+      {
+        "name": "Amplified Thinline Bible",
+        "price": 525,
+        "image": "/images/bibles/amp/thinline.jpg",
+        "desc": "Slim and lightweight design without sacrificing readability."
+      },
+
+      {
+        "name": "Amplified Personal Size Bible",
+        "price": 599,
+        "image": "/images/bibles/amp/personal.jpg",
+        "desc": "Comfortable size for both personal study and church use."
+      },
+
+      {
+        "name": "Amplified Outreach Bible",
+        "price": 299,
+        "image": "/images/bibles/amp/outreach.jpg",
+        "desc": "Affordable edition ideal for evangelism, ministries, and gifting."
+      },
+
+      {
+        "name": "Amplified Parallel Bible",
+        "price": 1499,
+        "image": "/images/bibles/amp/parallel.jpg",
+        "desc": "Compare the Amplified Bible alongside other popular translations."
+      },
+
+      {
+        "name": "Amplified Large Print Reference Bible",
+        "price": 899,
+        "image": "/images/bibles/amp/reference.jpg",
+        "desc": "Large print text combined with cross-references and study aids."
+      }
+
+    ]
+  },
+
+ "KJV": {
+  "title": "King James Version (KJV)",
+  "description": "The King James Version remains one of the most beloved Bible translations in history, known for its timeless language, literary beauty, and faithfulness to the traditional biblical texts.",
+
+  "products": [
+
+    {
+      "name": "KJV Study Bible",
+      "price": 1100,
+      "image": "/images/bibles/kjv/study.jpg",
+      "desc": "Comprehensive study notes, maps, articles, and references for deeper Bible study."
+    },
+
+    {
+      "name": "KJV Bible Giant Print Standard Faux Leather",
+      "price": 620,
+      "image": "/images/bibles/kjv/Faux Leather giant.jpg",
+      "desc": "Large, easy-to-read text ideal for daily reading and church use."
+    },
+
+    {
+      "name": "KJV Reference Bible",
+      "price": 799,
+      "image": "/images/bibles/kjv/reference.jpg",
+      "desc": "Features extensive cross-references and study tools."
+    },
+
+    {
+      "name": "KJV Personal Size Bible",
+      "price": 550,
+      "image": "/images/bibles/kjv/personal.jpg",
+      "desc": "Comfortable size for both personal devotion and church attendance."
+    },
+
+    {
+      "name": "KJV Compact Bible",
+      "price": 399,
+      "image": "/images/bibles/kjv/compact.jpg",
+      "desc": "Portable edition designed for travel and everyday carry."
+    },
+
+    {
+      "name": "KJV Journal Bible",
+      "price": 699,
+      "image": "/images/bibles/kjv/journal.jpg",
+      "desc": "Wide margins for note-taking, prayer journaling, and sermon notes."
+    },
+
+    {
+      "name": "KJV Family Bible",
+      "price": 1499,
+      "image": "/images/bibles/kjv/family.jpg",
+      "desc": "Beautiful heirloom edition designed to record family history and milestones."
+    },
+
+    {
+      "name": "KJV Outreach Bible",
+      "price": 249,
+      "image": "/images/bibles/kjv/outreach.jpg",
+      "desc": "Affordable edition ideal for evangelism, outreach, and gifting."
+    },
+
+    {
+      "name": "KJV Large Print Reference Bible",
+      "price": 899,
+      "image": "/images/bibles/kjv/large-reference.jpg",
+      "desc": "Combines large print readability with helpful study references."
+    },
+
+    {
+      "name": "KJV Deluxe Gift Bible",
+      "price": 749,
+      "image": "/images/bibles/kjv/gift.jpg",
+      "desc": "Elegant presentation Bible suitable for baptisms, confirmations, and special occasions."
+    }
+
+  ]
+},
+
+ "NLT": {
+  "title": "New Living Translation (NLT)",
+  "description": "The New Living Translation presents God's Word in clear, contemporary language while remaining faithful to the original biblical texts. It is widely loved for devotional reading, discipleship, and personal growth.",
+
+  "products": [
+
+    {
+      "name": "NLT Life Application Study Bible",
+      "price": 1299,
+      "image": "/images/bibles/nlt/life-application.jpg",
+      "desc": "The world's bestselling study Bible, helping readers apply Scripture to everyday life."
+    },
+
+    {
+      "name": "NLT Study Bible",
+      "price": 1199,
+      "image": "/images/bibles/nlt/study.jpg",
+      "desc": "In-depth study notes, maps, charts, and articles for serious Bible study."
+    },
+
+    {
+      "name": "NLT Everyday Life Bible",
+      "price": 899,
+      "image": "/images/bibles/nlt/everyday-life.jpg",
+      "desc": "Practical teachings and insights for daily Christian living."
+    },
+
+    {
+      "name": "NLT Compact Bible",
+      "price": 420,
+      "image": "/images/bibles/nlt/compact.jpg",
+      "desc": "Portable and lightweight Bible ideal for travel and church."
+    },
+
+    {
+      "name": "NLT Large Print Bible",
+      "price": 699,
+      "image": "/images/bibles/nlt/large-print.jpg",
+      "desc": "Large text edition for easy reading and comfortable study."
+    },
+
+    {
+      "name": "NLT Personal Size Bible",
+      "price": 599,
+      "image": "/images/bibles/nlt/personal.jpg",
+      "desc": "A convenient size for personal devotion and everyday use."
+    },
+
+    {
+      "name": "NLT Inspire Bible",
+      "price": 1099,
+      "image": "/images/bibles/nlt/inspire.jpg",
+      "desc": "Creative journaling Bible featuring beautiful illustrations and space for artwork."
+    },
+
+    {
+      "name": "NLT Women's Devotional Bible",
+      "price": 1199,
+      "image": "/images/bibles/nlt/womens.jpg",
+      "desc": "Devotional articles and resources designed specifically for women."
+    },
+
+    {
+      "name": "NLT Men's Study Bible",
+      "price": 1199,
+      "image": "/images/bibles/nlt/mens.jpg",
+      "desc": "Biblical guidance and study resources for Christian men."
+    },
+
+    {
+      "name": "NLT Outreach Bible",
+      "price": 249,
+      "image": "/images/bibles/nlt/outreach.jpg",
+      "desc": "Affordable Bible for evangelism, ministries, and gifting."
+    }
+
+  ]
+},
+
+ "NIV": {
+  "title": "New International Version (NIV)",
+  "description": "The New International Version is one of the world's most widely read Bible translations, combining accuracy with excellent readability. It is ideal for personal devotion, study, teaching, and everyday Christian living.",
+
+  "products": [
+
+    {
+      "name": "NIV Study Bible",
+      "price": 1150,
+      "image": "/images/bibles/niv/study.jpg",
+      "desc": "Comprehensive study notes, maps, charts, and articles for deeper Bible understanding."
+    },
+
+    {
+      "name": "NIV Life Application Study Bible",
+      "price": 1399,
+      "image": "/images/bibles/niv/life-application.jpg",
+      "desc": "Practical insights that help apply Scripture to everyday life."
+    },
+
+    {
+      "name": "NIV Large Print Bible",
+      "price": 699,
+      "image": "/images/bibles/niv/large-print.jpg",
+      "desc": "Easy-to-read large print edition perfect for daily reading."
+    },
+
+    {
+      "name": "NIV Compact Bible",
+      "price": 399,
+      "image": "/images/bibles/niv/compact.jpg",
+      "desc": "Portable Bible designed for travel, church, and everyday use."
+    },
+
+    {
+      "name": "NIV Journal the Word Bible",
+      "price": 749,
+      "image": "/images/bibles/niv/journal.jpg",
+      "desc": "Wide margins for note-taking, journaling, and sermon notes."
+    },
+
+    {
+      "name": "NIV Personal Size Bible",
+      "price": 599,
+      "image": "/images/bibles/niv/personal.jpg",
+      "desc": "Comfortable size for personal devotion and church attendance."
+    },
+
+    {
+      "name": "NIV Women's Devotional Bible",
+      "price": 1199,
+      "image": "/images/bibles/niv/womens.jpg",
+      "desc": "Includes devotionals and study resources specifically for women."
+    },
+
+    {
+      "name": "NIV Men's Devotional Bible",
+      "price": 1199,
+      "image": "/images/bibles/niv/mens.jpg",
+      "desc": "Designed to encourage spiritual growth and biblical leadership."
+    },
+
+    {
+      "name": "NIV Adventure Bible",
+      "price": 899,
+      "image": "/images/bibles/niv/adventure.jpg",
+      "desc": "One of the most popular children's Bibles with engaging learning features."
+    },
+
+    {
+      "name": "NIV Outreach Bible",
+      "price": 249,
+      "image": "/images/bibles/niv/outreach.jpg",
+      "desc": "Affordable edition ideal for evangelism, ministries, and gifting."
+    }
+
+  ]
+},
+
+ "NKJV": {
+  "title": "New King James Version (NKJV)",
+  "description": "The New King James Version preserves the beauty and tradition of the King James Version while updating the language for modern readers. It is one of the most popular translations for study, preaching, and daily devotion.",
+
+  "products": [
+
+    {
+      "name": "NKJV Study Bible",
+      "price": 1099,
+      "image": "/images/bibles/nkjv/study.jpg",
+      "desc": "Comprehensive study notes, articles, maps, and references."
+    },
+
+    {
+      "name": "NKJV Reference Bible",
+      "price": 890,
+      "image": "/images/bibles/nkjv/reference.jpg",
+      "desc": "Cross-references and study tools for deeper understanding."
+    },
+
+    {
+      "name": "NKJV Large Print Bible",
+      "price": 699,
+      "image": "/images/bibles/nkjv/large-print.jpg",
+      "desc": "Large text format for comfortable reading."
+    },
+
+    {
+      "name": "NKJV Compact Bible",
+      "price": 399,
+      "image": "/images/bibles/nkjv/compact.jpg",
+      "desc": "Portable and lightweight for everyday use."
+    },
+
+    {
+      "name": "NKJV Journal the Word Bible",
+      "price": 749,
+      "image": "/images/bibles/nkjv/journal.jpg",
+      "desc": "Wide margins for notes, journaling, and personal reflections."
+    },
+
+    {
+      "name": "NKJV Spirit-Filled Life Bible",
+      "price": 1399,
+      "image": "/images/bibles/nkjv/spirit-filled.jpg",
+      "desc": "Study Bible focused on Spirit-filled Christian living."
+    },
+
+    {
+      "name": "NKJV Personal Size Bible",
+      "price": 599,
+      "image": "/images/bibles/nkjv/personal.jpg",
+      "desc": "Ideal size for church, study, and personal devotion."
+    },
+
+    {
+      "name": "NKJV Outreach Bible",
+      "price": 249,
+      "image": "/images/bibles/nkjv/outreach.jpg",
+      "desc": "Affordable Bible for evangelism and gifting."
+    },
+
+    {
+      "name": "NKJV Women's Study Bible",
+      "price": 1199,
+      "image": "/images/bibles/nkjv/womens-study.jpg",
+      "desc": "Designed to encourage and equip women in their faith journey."
+    },
+
+    {
+      "name": "NKJV Men's Study Bible",
+      "price": 1199,
+      "image": "/images/bibles/nkjv/mens-study.jpg",
+      "desc": "Practical study resources specifically for Christian men."
+    }
+
+  ]
+},
+
+"MSG": {
+  "title": "The Message (MSG)",
+  "description": "The Message is a contemporary paraphrase of the Bible written by Eugene Peterson. It presents Scripture in clear, conversational language, making it ideal for devotional reading, new believers, and those seeking a fresh perspective on God's Word.",
+
+  "products": [
+
+    {
+      "name": "The Message Bible",
+      "price": 750,
+      "image": "/images/bibles/msg/full.jpg",
+      "desc": "The complete Message Bible in contemporary everyday language."
+    },
+
+    {
+      "name": "The Message Devotional Bible",
+      "price": 999,
+      "image": "/images/bibles/msg/devotional.jpg",
+      "desc": "Combines The Message text with devotional readings and practical reflections."
+    },
+
+    {
+      "name": "The Message Compact Bible",
+      "price": 450,
+      "image": "/images/bibles/msg/compact.jpg",
+      "desc": "Portable edition perfect for travel, church, and personal devotion."
+    },
+
+    {
+      "name": "The Message Personal Size Bible",
+      "price": 599,
+      "image": "/images/bibles/msg/personal.jpg",
+      "desc": "Comfortable size for everyday reading and study."
+    },
+
+    {
+      "name": "The Message Large Print Bible",
+      "price": 799,
+      "image": "/images/bibles/msg/large-print.jpg",
+      "desc": "Large easy-to-read text for extended reading sessions."
+    },
+
+    {
+      "name": "The Message Student Bible",
+      "price": 699,
+      "image": "/images/bibles/msg/student.jpg",
+      "desc": "Designed to help students engage with Scripture in a relatable way."
+    },
+
+    {
+      "name": "The Message Remix Bible",
+      "price": 899,
+      "image": "/images/bibles/msg/remix.jpg",
+      "desc": "A modern presentation of The Message tailored for younger readers."
+    },
+
+    {
+      "name": "The Message Outreach Bible",
+      "price": 249,
+      "image": "/images/bibles/msg/outreach.jpg",
+      "desc": "Affordable edition suitable for evangelism, outreach, and gifting."
+    }
+
+  ]
+}
+}

@@ -1,0 +1,40 @@
+{
+  "Mens": {
+    "title": "Men's Devotionals",
+    "description": "Daily devotionals designed to encourage and strengthen men in their walk with God.",
+    "products": [
+      {
+        "name": "Daily Strength for Men",
+        "price": 299,
+        "image": "/images/devotionals/mens/daily-strength.jpg",
+        "desc": "365 days of encouragement and biblical wisdom."
+      }
+    ]
+  },
+
+  "Womens": {
+    "title": "Women's Devotionals",
+    "description": "Inspiring devotionals to help women grow spiritually and deepen their faith.",
+    "products": [
+      {
+        "name": "Quiet Moments for Women",
+        "price": 299,
+        "image": "/images/devotionals/womens/quiet-moments.jpg",
+        "desc": "Daily inspiration and reflection."
+      }
+    ]
+  },
+
+  "Youth": {
+    "title": "Youth Devotionals",
+    "description": "Devotionals written specifically for teenagers and young adults.",
+    "products": [
+      {
+        "name": "Purpose for Teens",
+        "price": 249,
+        "image": "/images/devotionals/youth/purpose.jpg",
+        "desc": "Biblical guidance for everyday challenges."
+      }
+    ]
+  }
+}
