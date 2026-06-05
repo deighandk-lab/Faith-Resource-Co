@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Faith Resource Co. | Bible Collections</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#F5F1EA;
+    color:#2B2B2B;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Header */
+
+header{
+    background:#F5F1EA;
+    border-bottom:1px solid #DDD4C8;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-family:'Cormorant Garamond', serif;
+    font-size:32px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-weight:500;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:80px 0 60px;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond', serif;
+    font-size:64px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    color:#5C544C;
+}
+
+/* Translation Cards */
+
+.collections{
+    padding-bottom:80px;
+}
+
+.collections-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.collection-card{
+    background:white;
+    border-radius:24px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.06);
+    transition:0.3s;
+}
+
+.collection-card:hover{
+    transform:translateY(-5px);
+}
+
+.collection-card h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:34px;
+    margin-bottom:12px;
+}
+
+.collection-card p{
+    color:#5C544C;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2B2B2B;
+    color:white;
+    padding:14px 24px;
+    border-radius:14px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    opacity:0.9;
+}
+
+/* Footer */
+
+footer{
+    border-top:1px solid #DDD4C8;
+    padding:40px 0;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-logo{
+    font-family:'Cormorant Garamond', serif;
+    font-size:28px;
+    font-weight:700;
+}
+
+.socials{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    text-decoration:none;
+    color:#6B6259;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:42px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.nav-links{
+    justify-content:center;
+}
+
+.footer-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="container navbar">
+
+<div class="logo">
+<a href="index.html">Faith Resource Co.</a>
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="shoponline.html">Shop</a>
+<a href="learn-more.html">Learn More</a>
+<a href="contact.html">Contact</a>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Bible Translations</h1>
+
+<p>
+Explore our range of Bible translations, each offering a unique reading and study experience. Select a translation below to browse available editions.
+</p>
+
+</div>
+
+</section>
+
+<section class="collections">
+
+<div class="container">
+
+<div class="collections-grid">
+
+<div class="collection-card">
+<h2>Amplified Bible (AMP)</h2>
+<p>Expands Scripture with additional word meanings and context, making it ideal for deeper study.</p>
+<a href="Products/bible.html?type=AMP" class="btn">Browse Collection</a>
+</div>
+
+<div class="collection-card">
+<h2>King James Version (KJV)</h2>
+<p>The timeless and beloved classic translation known for its poetic language and heritage.</p>
+<a href="Products/bible.html?type=KJV" class="btn">Browse Collection</a>
+</div>
+
+<div class="collection-card">
+<h2>New King James Version (NKJV)</h2>
+<p>Preserves the beauty of the KJV while updating language for modern readers.</p>
+<a href="Products/bible.html?type=NKJV" class="btn">Browse Collection</a>
+</div>
+
+<div class="collection-card">
+<h2>New Living Translation (NLT)</h2>
+<p>A clear and easy-to-understand translation designed for everyday reading and devotion.</p>
+<a href="Products/bible.html?type=NLT" class="btn">Browse Collection</a>
+</div>
+
+<div class="collection-card">
+<h2>New International Version (NIV)</h2>
+<p>One of the world's most popular translations, balancing accuracy and readability.</p>
+<a href="Products/bible.html?type=NIV" class="btn">Browse Collection</a>
+</div>
+
+<div class="collection-card">
+<h2>The Message (MSG)</h2>
+<p>A modern paraphrase that presents Scripture in conversational language.</p>
+<a href="Products/bible.html?type=MSG" class="btn">Browse Collection</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-content">
+
+<div>
+<div class="footer-logo">Faith Resource Co.</div>
+<p>Resources Rooted in Faith.</p>
+</div>
+
+<div class="socials">
+<a href="contact.html">Contact Us</a>
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>

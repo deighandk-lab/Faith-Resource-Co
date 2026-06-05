@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shop Online | Faith Resource Co.</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#F5F1EA;
+    color:#2B2B2B;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Header */
+
+header{
+    background:#F5F1EA;
+    border-bottom:1px solid #DDD4C8;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+    flex-wrap:wrap;
+}
+
+.logo a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-family:'Cormorant Garamond',serif;
+    font-size:32px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    opacity:.7;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:80px 0;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:64px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    color:#5C544C;
+    font-size:18px;
+}
+
+/* Categories */
+
+.categories{
+    padding-bottom:80px;
+}
+
+.section-title{
+    text-align:center;
+    font-family:'Cormorant Garamond',serif;
+    font-size:46px;
+    margin-bottom:40px;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.category-card{
+    background:white;
+    border-radius:24px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.06);
+    transition:.3s ease;
+    display:flex;
+    flex-direction:column;
+}
+
+.category-card:hover{
+    transform:translateY(-5px);
+}
+
+.category-icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.category-card h3{
+    font-family:'Cormorant Garamond',serif;
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.category-card p{
+    color:#5C544C;
+    margin-bottom:25px;
+    flex-grow:1;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2B2B2B;
+    color:white;
+    padding:14px 22px;
+    border-radius:14px;
+    text-align:center;
+    transition:.3s;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+/* Footer */
+
+footer{
+    border-top:1px solid #DDD4C8;
+    padding:40px 0;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-logo{
+    font-family:'Cormorant Garamond',serif;
+    font-size:28px;
+    font-weight:700;
+}
+
+.socials{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    text-decoration:none;
+    color:#6B6259;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:44px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.nav-links{
+    justify-content:center;
+}
+
+.footer-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="container navbar">
+
+<div class="logo">
+<a href="index.html">Faith Resource Co.</a>
+</div>
+
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="learn-more.html">Learn More</a>
+<a href="partner.html">Partner With Us</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Shop Online</h1>
+
+<p>
+Explore our growing collection of Christian resources designed to strengthen faith, encourage spiritual growth, and equip believers for everyday life.
+</p>
+
+</div>
+
+</section>
+
+<section class="categories">
+
+<div class="container">
+
+<h2 class="section-title">Browse Categories</h2>
+
+<div class="category-grid">
+
+<!-- Bibles -->
+<div class="category-card">
+<div class="category-icon">📖</div>
+<h3>Bible Translations</h3>
+<p>
+Browse Bibles in a variety of translations including Amplified, KJV, NKJV, NIV, NLT, The Message, and more.
+</p>
+<a href="bible.html" class="btn">Browse Collection</a>
+</div>
+
+<!-- Christian Books -->
+<div class="category-card">
+<div class="category-icon">📚</div>
+<h3>Christian Books</h3>
+<p>
+Discover books on Christian living, leadership, theology, biographies, discipleship, and personal growth.
+</p>
+<a href="christian-books.html" class="btn">Browse Collection</a>
+</div>
+
+<!-- Devotionals -->
+<div class="category-card">
+<div class="category-icon">🙏</div>
+<h3>Devotionals</h3>
+<p>
+Find daily devotionals, prayer journals, faith-building resources, and spiritual encouragement for every season.
+</p>
+<a href="devotionals.html" class="btn">Browse Collection</a>
+</div>
+
+<!-- Study Resources -->
+<div class="category-card">
+<div class="category-icon">✝️</div>
+<h3>Bible Study Resources</h3>
+<p>
+Explore study Bibles, commentaries, concordances, dictionaries, and discipleship tools.
+</p>
+<a href="study-resources.html" class="btn">Browse Collection</a>
+</div>
+
+<!-- Gifts -->
+<div class="category-card">
+<div class="category-icon">🎁</div>
+<h3>Gifts & Accessories</h3>
+<p>
+Shop bookmarks, journals, mugs, stationery, and faith-inspired gifts for every occasion.
+</p>
+<a href="gifts.html" class="btn">Browse Collection</a>
+</div>
+
+<!-- Church Resources -->
+<div class="category-card">
+<div class="category-icon">⛪</div>
+<h3>Church & Ministry Resources</h3>
+<p>
+Browse teaching materials, ministry resources, church supplies, and leadership development tools.
+</p>
+<a href="church-resources.html" class="btn">Browse Collection</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-content">
+
+<div>
+<div class="footer-logo">Faith Resource Co.</div>
+<p>Resources Rooted in Faith.</p>
+</div>
+
+<div class="socials">
+<a href="contact.html">Contact Us</a>
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="https://wa.me/27815620614" target="_blank">WhatsApp</a>
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
+
