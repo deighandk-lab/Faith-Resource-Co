@@ -8,28 +8,28 @@
       {
         "name": "Amplified Study Bible",
         "price": 1199,
-        "image": "..images/bibles/amp/study.jpg",
+        "image": "../images/bibles/amp/study.jpg",
         "desc": "Comprehensive study notes, commentary, maps, articles, and verse explanations."
       },
 
       {
         "name": "Amplified Large Print Bible",
         "price": 599,
-        "image": "images/bibles/amp/large.jpg",
+        "image": "..images/bibles/amp/large.jpg",
         "desc": "Easy-to-read large print edition ideal for daily reading and study."
       },
 
       {
         "name": "Amplified Compact Bible",
         "price": 385,
-        "image": "images/bibles/amp/compact.jpg",
+        "image": "..images/bibles/amp/compact.jpg",
         "desc": "Portable edition perfect for travel, church, and personal devotion."
       },
 
       {
         "name": "Amplified Everyday Life Bible",
         "price": 670,
-        "image": "images/bibles/amp/everyday.jpg",
+        "image": "..images/bibles/amp/everyday.jpg",
         "desc": "Features teachings and practical insights for applying Scripture in daily life."
       },
 
