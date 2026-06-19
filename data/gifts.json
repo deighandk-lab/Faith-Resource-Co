@@ -1,0 +1,32 @@
+{
+  "Gifts": {
+    "title": "Christian Gifts & Accessories",
+    "description": "Meaningful faith-inspired gifts and accessories designed to encourage, inspire, and bring God's Word into everyday life.",
+    "products": [
+      {
+        "name": "Faith Inspired Coffee Mug",
+        "price": 149,
+        "image": "../images/gifts/faith-mug.jpg",
+        "desc": "A beautiful faith-inspired mug perfect for personal use or gifting."
+      },
+      {
+        "name": "Christian Keyring",
+        "price": 79,
+        "image": "../images/gifts/keyring.jpg",
+        "desc": "A small reminder of faith to carry wherever you go."
+      },
+      {
+        "name": "Scripture Wall Art",
+        "price": 199,
+        "image": "../images/gifts/scripture-art.jpg",
+        "desc": "Faith-based artwork featuring uplifting Scripture verses."
+      },
+      {
+        "name": "Prayer Journal",
+        "price": 129,
+        "image": "../images/gifts/prayer-journal.jpg",
+        "desc": "A dedicated journal to record prayers, reflections, and moments with God."
+      }
+    ]
+  }
+}

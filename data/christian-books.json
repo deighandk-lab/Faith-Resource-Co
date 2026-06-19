@@ -1,0 +1,46 @@
+{
+  "MaxLucado": {
+    "title": "Max Lucado",
+    "description": "Inspirational Christian books focused on faith, hope, grace, and encouragement.",
+    "products": [
+      {
+        "name": "Anxious for Nothing",
+        "price": 299,
+        "image": "../images/authors/anxious-for-nothing.jpg",
+        "desc": "Finding calm in a chaotic world through biblical truth."
+      },
+      {
+        "name": "You'll Get Through This",
+        "price": 279,
+        "image": "../images/authors/youll-get-through-this.jpg",
+        "desc": "Hope and encouragement during difficult seasons."
+      }
+    ]
+  },
+
+  "JoyceMeyer": {
+    "title": "Joyce Meyer",
+    "description": "Practical Christian living resources and spiritual growth teachings.",
+    "products": [
+      {
+        "name": "Battlefield of the Mind",
+        "price": 299,
+        "image": "../images/authors/battlefield-of-the-mind.jpg",
+        "desc": "Winning the battle in your thoughts."
+      }
+    ]
+  },
+
+  "SarahYoung": {
+    "title": "Sarah Young",
+    "description": "Devotional books designed to strengthen your daily walk with God.",
+    "products": [
+      {
+        "name": "Jesus Calling",
+        "price": 249,
+        "image": "../images/authors/jesus-calling.jpg",
+        "desc": "Daily devotional reflections inspired by Scripture."
+      }
+    ]
+  }
+}

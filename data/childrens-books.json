@@ -1,0 +1,26 @@
+{
+  "Kids": {
+    "title": "Children's Books",
+    "description": "Faith-building books designed to help children learn biblical truths and grow in their relationship with God.",
+    "products": [
+      {
+        "name": "The Beginner's Bible",
+        "price": 299,
+        "image": "../images/childrens/beginners-bible.jpg",
+        "desc": "A colourful introduction to Bible stories for young children."
+      },
+      {
+        "name": "Jesus Calling for Kids",
+        "price": 249,
+        "image": "../images/childrens/jesus-calling-kids.jpg",
+        "desc": "Daily devotionals written especially for children."
+      },
+      {
+        "name": "Bible Stories Every Child Should Know",
+        "price": 199,
+        "image": "../images/childrens/bible-stories.jpg",
+        "desc": "Classic Bible stories presented in a child-friendly format."
+      }
+    ]
+  }
+}
