@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Faith Resource Co. | Bible Study Resources</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#F5F1EA;
+    color:#2B2B2B;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* HEADER */
+
+header{
+    background:#F5F1EA;
+    border-bottom:1px solid #DDD4C8;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-family:'Cormorant Garamond',serif;
+    font-size:32px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#2B2B2B;
+    font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:70px 0;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    color:#5C544C;
+}
+
+/* PRODUCTS */
+
+.products{
+    padding-bottom:80px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.product-card{
+    background:white;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.06);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+}
+
+.product-image{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    background:#E7E1D8;
+}
+
+.product-content{
+    padding:24px;
+}
+
+.product-content h3{
+    font-family:'Cormorant Garamond',serif;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.product-content p{
+    color:#5C544C;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    background:#2B2B2B;
+    color:white;
+    padding:14px;
+    border-radius:14px;
+    transition:.3s;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+/* FOOTER */
+
+footer{
+    border-top:1px solid #DDD4C8;
+    padding:40px 0;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-logo{
+    font-family:'Cormorant Garamond',serif;
+    font-size:28px;
+    font-weight:700;
+}
+
+.socials{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    text-decoration:none;
+    color:#6B6259;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:42px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.nav-links{
+    justify-content:center;
+}
+
+.footer-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="container navbar">
+
+<div class="logo">
+<a href="../index.html">Faith Resource Co.</a>
+</div>
+
+<div class="nav-links">
+<a href="../index.html">Home</a>
+<a href="../shoponline.html">Shop</a>
+<a href="../learn-more.html">Learn More</a>
+<a href="../contact.html">Contact</a>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<h1 id="title">Loading...</h1>
+
+<p id="description">
+Please wait while we load this Bible collection.
+</p>
+
+</div>
+
+</section>
+
+<section class="products">
+
+<div class="container">
+
+<div class="products-grid" id="products"></div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-content">
+
+<div>
+<div class="footer-logo">Faith Resource Co.</div>
+<p>Resources Rooted in Faith.</p>
+</div>
+
+<div class="socials">
+<a href="../contact.html">Contact Us</a>
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+</div>
+
+</div>
+
+</footer>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const type = params.get("type");
+
+console.log("Script is running");
+console.log("Type:", type);
+
+fetch("../data/bible-study-resources.json")
+.then(response => response.json())
+.then(data => {
+
+    console.log(data);
+
+const bible = data[type];
+
+    if (!bible) {
+        document.getElementById("title").textContent =
+            "Bible Study Resource Collection Not Found";
+
+        document.getElementById("description").textContent =
+            "The requested Bible study resource collection could not be found.";
+
+        return;
+    }
+
+    document.getElementById("title").textContent =
+        bible.title;
+
+    document.getElementById("description").textContent =
+        bible.description;
+
+    const productsContainer =
+        document.getElementById("products");
+
+    productsContainer.innerHTML = "";
+
+    bible.products.forEach(product => {
+
+        productsContainer.innerHTML += `
+        <div class="product-card">
+
+            <img
+                src="${product.image}"
+                alt="${product.name}"
+                class="product-image"
+            >
+
+            <div class="product-content">
+
+                <h3>${product.name}</h3>
+
+                <p>${product.desc}</p>
+
+                <div class="price">
+                    R${product.price}
+                </div>
+
+                <a
+                    class="btn"
+                    href="https://wa.me/27815620614?text=Hi%20Faith%20Resource%20Co.%20I%20am%20interested%20in%20the%20${encodeURIComponent(product.name)}"
+                    target="_blank"
+                >
+                    Order via WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+        `;
+    });
+
+})
+.catch(error => {
+
+    console.error(error);
+
+    document.getElementById("title").textContent =
+        "Unable to Load Bible Collection";
+
+    document.getElementById("description").textContent =
+        "Please check your JSON file location and ensure the site is running through Live Server.";
+
+});
+
+</script>
+
+</body>
+</html>
