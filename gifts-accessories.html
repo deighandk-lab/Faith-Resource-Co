@@ -221,14 +221,14 @@ footer{
 <div class="container navbar">
 
 <div class="logo">
-<a href="../index.html">Faith Resource Co.</a>
+<a href="index.html">Faith Resource Co.</a>
 </div>
 
 <div class="nav-links">
-<a href="../index.html">Home</a>
-<a href="../shoponline.html">Shop</a>
-<a href="../learn-more.html">Learn More</a>
-<a href="../contact.html">Contact</a>
+<a href="index.html">Home</a>
+<a href="shoponline.html">Shop</a>
+<a href="learn-more.html">Learn More</a>
+<a href="contact.html">Contact</a>
 </div>
 
 </div>
@@ -269,7 +269,7 @@ Please wait while we load this Bible collection.
 </div>
 
 <div class="socials">
-<a href="../contact.html">Contact Us</a>
+<a href="contact.html">Contact Us</a>
 <a href="#">Facebook</a>
 <a href="#">Instagram</a>
 </div>
@@ -278,92 +278,7 @@ Please wait while we load this Bible collection.
 
 </footer>
 
-<script>
-
-const params = new URLSearchParams(window.location.search);
-const type = params.get("type");
-
-console.log("Script is running");
-console.log("Type:", type);
-
-fetch("../data/gifts.json")
-.then(response => response.json())
-.then(data => {
-
-    console.log(data);
-
-const bible = data[type];
-
-    if (!bible) {
-        document.getElementById("title").textContent =
-            "Bible Collection Not Found";
-
-        document.getElementById("description").textContent =
-            "The requested Bible translation could not be found.";
-
-        return;
-    }
-
-    document.getElementById("title").textContent =
-        bible.title;
-
-    document.getElementById("description").textContent =
-        bible.description;
-
-    const productsContainer =
-        document.getElementById("products");
-
-    productsContainer.innerHTML = "";
-
-    bible.products.forEach(product => {
-
-        productsContainer.innerHTML += `
-        <div class="product-card">
-
-            <img
-                src="${product.image}"
-                alt="${product.name}"
-                class="product-image"
-            >
-
-            <div class="product-content">
-
-                <h3>${product.name}</h3>
-
-                <p>${product.desc}</p>
-
-                <div class="price">
-                    R${product.price}
-                </div>
-
-                <a
-                    class="btn"
-                    href="https://wa.me/27815620614?text=Hi%20Faith%20Resource%20Co.%20I%20am%20interested%20in%20the%20${encodeURIComponent(product.name)}"
-                    target="_blank"
-                >
-                    Order via WhatsApp
-                </a>
-
-            </div>
-
-        </div>
-        `;
-    });
-
-})
-.catch(error => {
-
-    console.error(error);
-
-    document.getElementById("title").textContent =
-        "Unable to Load Bible Collection";
-
-    document.getElementById("description").textContent =
-        "Please check your JSON file location and ensure the site is running through Live Server.";
-
-});
-
-</script>
+<script src="js/catalogue.js" data-file="gifts.json" data-label="Gifts &amp; Accessories"></script>
 
 </body>
 </html>
