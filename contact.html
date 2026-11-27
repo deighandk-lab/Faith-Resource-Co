@@ -9,213 +9,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #F5F1EA;
-      color: #2B2B2B;
-      line-height: 1.6;
-    }
-
-    h1, h2, h3 {
-      font-family: 'Cormorant Garamond', serif;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .navbar {
-      background: #F5F1EA;
-      border-bottom: 1px solid #DDD4C8;
-      padding: 18px 0;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    .nav-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .logo {
-      font-size: 34px;
-      font-family: 'Cormorant Garamond', serif;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 20px;
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: #2B2B2B;
-      font-weight: 500;
-    }
-
-    .hero {
-      padding: 100px 0 60px;
-      text-align: center;
-      background: linear-gradient(to bottom, #E7E1D8, #F5F1EA);
-    }
-
-    .hero h1 {
-      font-size: 64px;
-      margin-bottom: 15px;
-    }
-
-    .hero p {
-      max-width: 700px;
-      margin: auto;
-      color: #5C544C;
-      font-size: 18px;
-    }
-
-    .contact-section {
-      padding: 90px 0;
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 40px;
-      align-items: start;
-    }
-
-    .contact-card,
-    .contact-form {
-      background: white;
-      padding: 40px;
-      border-radius: 28px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
-    }
-
-    .contact-card h2,
-    .contact-form h2 {
-      font-size: 40px;
-      margin-bottom: 20px;
-    }
-
-    .contact-card p {
-      color: #5C544C;
-      margin-bottom: 15px;
-    }
-
-    .social-links {
-      margin-top: 25px;
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-    }
-
-    .social-links a {
-      text-decoration: none;
-      color: #6B6259;
-    }
-
-    form input,
-    form textarea {
-      width: 100%;
-      padding: 14px;
-      margin-bottom: 18px;
-      border: 1px solid #DDD4C8;
-      border-radius: 14px;
-      background: #FAF8F5;
-      font-family: 'Inter', sans-serif;
-    }
-
-    form textarea {
-      min-height: 150px;
-      resize: vertical;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 14px 24px;
-      border-radius: 14px;
-      border: none;
-      background: #2B2B2B;
-      color: white;
-      font-weight: 500;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-3px);
-    }
-
-    footer {
-      padding: 40px 0;
-      border-top: 1px solid #DDD4C8;
-      background: #F5F1EA;
-    }
-
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .footer-content h3 {
-      font-size: 36px;
-    }
-
-    .footer-content p {
-      color: #6B6259;
-      margin-top: 5px;
-    }
-
-    .socials {
-      display: flex;
-      gap: 20px;
-    }
-
-    .socials a {
-      text-decoration: none;
-      color: #6B6259;
-    }
-
-    @media(max-width:768px) {
-      .hero h1 {
-        font-size: 48px;
-      }
-
-      .footer-content {
-        justify-content: center;
-        text-align: center;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/pages/contact.css">
+<meta name="description" content="Contact Faith Resource Co. for Christian book enquiries, orders, partnerships and support via WhatsApp or email.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<meta property="og:site_name" content="Faith Resource Co.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Faith Resource Co. | Contact Us">
+<meta property="og:description" content="Contact Faith Resource Co. for Christian book enquiries, orders, partnerships and support via WhatsApp or email.">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://deighandk-lab.github.io/Faith-Resource-Co/contact.html">
+<meta property="og:url" content="https://deighandk-lab.github.io/Faith-Resource-Co/contact.html">
 </head>
 <body>
 
-  <div class="navbar">
-    <div class="container nav-content">
-      <div class="logo">Faith Resource Co.</div>
-
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="shoponline.html">Shop</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </div>
+  <header class="frc-header"><div class="frc-inner"><a class="frc-brand" href="index.html">Faith Resource Co.</a><nav class="frc-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="shoponline.html">Shop</a><a href="learn-more.html">Learn More</a><a href="partner.html">Partner With Us</a><a href="contact.html">Contact</a></nav></div></header>
 
   <section class="hero">
     <div class="container">
@@ -233,7 +41,7 @@
         <h2>Get In Touch</h2>
 
         <p><strong>WhatsApp:</strong> +27 81 562 0614</p>
-        <p><strong>Email:</strong> info@faithresourceco.co.za</p>
+        <p><strong>Email:</strong> <a href="mailto:info@faithresourceco.co.za">info@faithresourceco.co.za</a></p>
 
         <div class="social-links">
           <a href="https://www.instagram.com/faithresource/" target="_blank">Instagram</a>
@@ -246,44 +54,15 @@
       <div class="contact-form">
         <h2>Send a Message</h2>
 
-        <form>
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" required></textarea>
-
-          <button type="submit" class="btn">
-            Send Message
-          </button>
-        </form>
+        <form id="contact-enquiry"><label for="contact-name">Your name</label><input id="contact-name" name="name" required maxlength="100" autocomplete="name"><label for="contact-email">Your email (optional)</label><input id="contact-email" name="email" type="email" maxlength="150" autocomplete="email"><label for="contact-message">Your message</label><textarea id="contact-message" name="message" required maxlength="1500" rows="5"></textarea><p>Continue to WhatsApp to review and send your message. No message is sent automatically.</p><button type="submit" class="btn">Continue to WhatsApp</button><p id="contact-status" role="status"></p></form><noscript><p>Contact us directly via <a href="https://wa.me/27815620614">WhatsApp</a> or <a href="mailto:info@faithresourceco.co.za">email</a>.</p></noscript>
       </div>
 
     </div>
   </section>
 
-  <footer>
-    <div class="container footer-content">
-      <div>
-        <h3>Faith Resource Co.</h3>
-        <p>
-          Resources Rooted in Faith.
-        </p>
-      </div>
+  <footer class="frc-footer"><div class="frc-inner"><div><a class="frc-brand" href="index.html">Faith Resource Co.</a><p>Resources Rooted in Faith.</p></div><nav class="frc-socials" aria-label="Footer navigation"><a href="contact.html">Contact Us</a><a href="terms.html">Terms &amp; Conditions</a><a href="https://web.facebook.com/faithresourcecentre">Facebook</a><a href="https://www.instagram.com/faithresource/">Instagram</a><a href="https://wa.me/27815620614">WhatsApp</a></nav></div></footer>
 
-      <div class="socials">
-        <a href="https://www.instagram.com/faithresource/" target="_blank">
-          Instagram
-        </a>
-
-        <a href="https://web.facebook.com/faithresourcecentre" target="_blank">
-          Facebook
-        </a>
-
-        <a href="https://wa.me/27815620614" target="_blank">
-          WhatsApp
-        </a>
-      </div>
-    </div>
-  </footer>
-
+<script src="js/site.js"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>

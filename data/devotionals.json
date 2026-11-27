@@ -7,11 +7,11 @@
         "name": "Daily Strength for Men",
         "price": 299,
         "image": "/images/devotionals/mens/daily-strength.jpg",
-        "desc": "365 days of encouragement and biblical wisdom."
+        "desc": "365 days of encouragement and biblical wisdom.",
+        "id": "devotionals-mens-daily-strength-for-men"
       }
     ]
   },
-
   "Womens": {
     "title": "Women's Devotionals",
     "description": "Inspiring devotionals to help women grow spiritually and deepen their faith.",
@@ -20,11 +20,11 @@
         "name": "Quiet Moments for Women",
         "price": 299,
         "image": "/images/devotionals/womens/quiet-moments.jpg",
-        "desc": "Daily inspiration and reflection."
+        "desc": "Daily inspiration and reflection.",
+        "id": "devotionals-womens-quiet-moments-for-women"
       }
     ]
   },
-
   "Youth": {
     "title": "Youth Devotionals",
     "description": "Devotionals written specifically for teenagers and young adults.",
@@ -33,11 +33,11 @@
         "name": "Purpose for Teens",
         "price": 249,
         "image": "/images/devotionals/youth/purpose.jpg",
-        "desc": "Biblical guidance for everyday challenges."
+        "desc": "Biblical guidance for everyday challenges.",
+        "id": "devotionals-youth-purpose-for-teens"
       }
     ]
   },
-
   "Couples": {
     "title": "Couples Devotionals",
     "description": "Devotionals designed to strengthen relationships and grow together in faith.",
@@ -46,11 +46,11 @@
         "name": "Night Light for Couples",
         "price": 349,
         "image": "/images/devotionals/couples/night-light.jpg",
-        "desc": "A year of daily devotionals for couples."
+        "desc": "A year of daily devotionals for couples.",
+        "id": "devotionals-couples-night-light-for-couples"
       }
     ]
   },
-
   "365Day": {
     "title": "365-Day Devotionals",
     "description": "Daily devotionals to guide and encourage you throughout the entire year.",
@@ -59,7 +59,8 @@
         "name": "The One Year Devotional",
         "price": 399,
         "image": "/images/devotionals/365day/one-year.jpg",
-        "desc": "A full year of Scripture readings and reflections."
+        "desc": "A full year of Scripture readings and reflections.",
+        "id": "devotionals-365day-the-one-year-devotional"
       }
     ]
   }

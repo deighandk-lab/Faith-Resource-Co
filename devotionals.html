@@ -11,211 +11,22 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:'Inter',sans-serif;
-    background:#F5F1EA;
-    color:#2B2B2B;
-    line-height:1.6;
-}
-
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
-
-/* HEADER */
-
-header{
-    background:#F5F1EA;
-    border-bottom:1px solid #DDD4C8;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 0;
-}
-
-.logo a{
-    text-decoration:none;
-    color:#2B2B2B;
-    font-family:'Cormorant Garamond',serif;
-    font-size:32px;
-    font-weight:700;
-}
-
-.nav-links{
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.nav-links a{
-    text-decoration:none;
-    color:#2B2B2B;
-    font-weight:500;
-}
-
-/* HERO */
-
-.hero{
-    text-align:center;
-    padding:80px 0 60px;
-}
-
-.hero h1{
-    font-family:'Cormorant Garamond',serif;
-    font-size:64px;
-    margin-bottom:15px;
-}
-
-.hero p{
-    max-width:800px;
-    margin:auto;
-    color:#5C544C;
-}
-
-/* COLLECTIONS */
-
-.collections{
-    padding-bottom:80px;
-}
-
-.collections-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
-}
-
-.collection-card{
-    background:white;
-    border-radius:24px;
-    padding:35px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.06);
-    transition:0.3s;
-}
-
-.collection-card:hover{
-    transform:translateY(-5px);
-}
-
-.collection-card h2{
-    font-family:'Cormorant Garamond',serif;
-    font-size:34px;
-    margin-bottom:12px;
-}
-
-.collection-card p{
-    color:#5C544C;
-    margin-bottom:25px;
-}
-
-.btn{
-    display:inline-block;
-    text-decoration:none;
-    background:#2B2B2B;
-    color:white;
-    padding:14px 24px;
-    border-radius:14px;
-    transition:0.3s;
-}
-
-.btn:hover{
-    opacity:0.9;
-}
-
-/* FOOTER */
-
-footer{
-    border-top:1px solid #DDD4C8;
-    padding:40px 0;
-}
-
-.footer-content{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-    gap:20px;
-}
-
-.footer-logo{
-    font-family:'Cormorant Garamond',serif;
-    font-size:28px;
-    font-weight:700;
-}
-
-.socials{
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.socials a{
-    text-decoration:none;
-    color:#6B6259;
-}
-
-/* MOBILE */
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:42px;
-}
-
-.navbar{
-    flex-direction:column;
-    gap:15px;
-}
-
-.nav-links{
-    justify-content:center;
-}
-
-.footer-content{
-    flex-direction:column;
-    text-align:center;
-}
-
-}
-
-</style>
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/pages/devotionals.css">
+<meta name="description" content="Explore Christian devotionals for men, women, youth, couples and daily spiritual growth.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<meta property="og:site_name" content="Faith Resource Co.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Faith Resource Co. | Devotional Collections">
+<meta property="og:description" content="Explore Christian devotionals for men, women, youth, couples and daily spiritual growth.">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://deighandk-lab.github.io/Faith-Resource-Co/devotionals.html">
+<meta property="og:url" content="https://deighandk-lab.github.io/Faith-Resource-Co/devotionals.html">
 </head>
 
 <body>
 
-<header>
-
-<div class="container navbar">
-
-<div class="logo">
-<a href="index.html">Faith Resource Co.</a>
-</div>
-
-<div class="nav-links">
-<a href="index.html">Home</a>
-<a href="shoponline.html">Shop</a>
-<a href="learn-more.html">Learn More</a>
-<a href="contact.html">Contact</a>
-</div>
-
-</div>
-
-</header>
+<header class="frc-header"><div class="frc-inner"><a class="frc-brand" href="index.html">Faith Resource Co.</a><nav class="frc-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="shoponline.html">Shop</a><a href="learn-more.html">Learn More</a><a href="partner.html">Partner With Us</a><a href="contact.html">Contact</a></nav></div></header>
 
 <section class="hero">
 
@@ -273,24 +84,8 @@ Discover inspiring devotionals designed to strengthen your faith, encourage spir
 
 </section>
 
-<footer>
+<footer class="frc-footer"><div class="frc-inner"><div><a class="frc-brand" href="index.html">Faith Resource Co.</a><p>Resources Rooted in Faith.</p></div><nav class="frc-socials" aria-label="Footer navigation"><a href="contact.html">Contact Us</a><a href="terms.html">Terms &amp; Conditions</a><a href="https://web.facebook.com/faithresourcecentre">Facebook</a><a href="https://www.instagram.com/faithresource/">Instagram</a><a href="https://wa.me/27815620614">WhatsApp</a></nav></div></footer>
 
-<div class="container footer-content">
-
-<div>
-<div class="footer-logo">Faith Resource Co.</div>
-<p>Resources Rooted in Faith.</p>
-</div>
-
-<div class="socials">
-<a href="contact.html">Contact Us</a>
-<a href="https://web.facebook.com/faithresourcecentre">Facebook</a>
-<a href="https://www.instagram.com/faithresource/">Instagram</a>
-</div>
-
-</div>
-
-</footer>
-
+<script src="js/site.js"></script>
 </body>
 </html>

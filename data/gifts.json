@@ -7,25 +7,29 @@
         "name": "Faith Inspired Coffee Mug",
         "price": 149,
         "image": "../images/gifts/faith-mug.jpg",
-        "desc": "A beautiful faith-inspired mug perfect for personal use or gifting."
+        "desc": "A beautiful faith-inspired mug perfect for personal use or gifting.",
+        "id": "gifts-gifts-faith-inspired-coffee-mug"
       },
       {
         "name": "Christian Keyring",
         "price": 79,
         "image": "../images/gifts/keyring.jpg",
-        "desc": "A small reminder of faith to carry wherever you go."
+        "desc": "A small reminder of faith to carry wherever you go.",
+        "id": "gifts-gifts-christian-keyring"
       },
       {
         "name": "Scripture Wall Art",
         "price": 199,
         "image": "../images/gifts/scripture-art.jpg",
-        "desc": "Faith-based artwork featuring uplifting Scripture verses."
+        "desc": "Faith-based artwork featuring uplifting Scripture verses.",
+        "id": "gifts-gifts-scripture-wall-art"
       },
       {
         "name": "Prayer Journal",
         "price": 129,
         "image": "../images/gifts/prayer-journal.jpg",
-        "desc": "A dedicated journal to record prayers, reflections, and moments with God."
+        "desc": "A dedicated journal to record prayers, reflections, and moments with God.",
+        "id": "gifts-gifts-prayer-journal"
       }
     ]
   }
