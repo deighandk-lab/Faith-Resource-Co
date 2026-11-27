@@ -7,25 +7,29 @@
         "name": "Bible Study Guide",
         "price": 199,
         "image": "../images/bible-study/study-guide.jpg",
-        "desc": "A structured guide to help you explore Scripture with deeper understanding."
+        "desc": "A structured guide to help you explore Scripture with deeper understanding.",
+        "id": "bible-study-resources-study-bible-study-guide"
       },
       {
         "name": "Bible Commentary Collection",
         "price": 499,
         "image": "../images/bible-study/commentary.jpg",
-        "desc": "Helpful insights and explanations to support your personal Bible study."
+        "desc": "Helpful insights and explanations to support your personal Bible study.",
+        "id": "bible-study-resources-study-bible-commentary-collection"
       },
       {
         "name": "Scripture Study Workbook",
         "price": 179,
         "image": "../images/bible-study/workbook.jpg",
-        "desc": "A practical workbook for notes, reflections, and Scripture application."
+        "desc": "A practical workbook for notes, reflections, and Scripture application.",
+        "id": "bible-study-resources-study-scripture-study-workbook"
       },
       {
         "name": "Bible Concordance",
         "price": 299,
         "image": "../images/bible-study/concordance.jpg",
-        "desc": "A valuable reference tool to help locate and understand Scripture topics."
+        "desc": "A valuable reference tool to help locate and understand Scripture topics.",
+        "id": "bible-study-resources-study-bible-concordance"
       }
     ]
   }
