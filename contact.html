@@ -11,6 +11,15 @@
 
   <link rel="stylesheet" href="css/site.css">
 <link rel="stylesheet" href="css/pages/contact.css">
+<meta name="description" content="Contact Faith Resource Co. for Christian book enquiries, orders, partnerships and support via WhatsApp or email.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<meta property="og:site_name" content="Faith Resource Co.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Faith Resource Co. | Contact Us">
+<meta property="og:description" content="Contact Faith Resource Co. for Christian book enquiries, orders, partnerships and support via WhatsApp or email.">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://deighandk-lab.github.io/Faith-Resource-Co/contact.html">
+<meta property="og:url" content="https://deighandk-lab.github.io/Faith-Resource-Co/contact.html">
 </head>
 <body>
 
@@ -32,7 +41,7 @@
         <h2>Get In Touch</h2>
 
         <p><strong>WhatsApp:</strong> +27 81 562 0614</p>
-        <p><strong>Email:</strong> info@faithresourceco.co.za</p>
+        <p><strong>Email:</strong> <a href="mailto:info@faithresourceco.co.za">info@faithresourceco.co.za</a></p>
 
         <div class="social-links">
           <a href="https://www.instagram.com/faithresource/" target="_blank">Instagram</a>
@@ -45,15 +54,7 @@
       <div class="contact-form">
         <h2>Send a Message</h2>
 
-        <form>
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" required></textarea>
-
-          <button type="submit" class="btn">
-            Send Message
-          </button>
-        </form>
+        <form id="contact-enquiry"><label for="contact-name">Your name</label><input id="contact-name" name="name" required maxlength="100" autocomplete="name"><label for="contact-email">Your email (optional)</label><input id="contact-email" name="email" type="email" maxlength="150" autocomplete="email"><label for="contact-message">Your message</label><textarea id="contact-message" name="message" required maxlength="1500" rows="5"></textarea><p>Continue to WhatsApp to review and send your message. No message is sent automatically.</p><button type="submit" class="btn">Continue to WhatsApp</button><p id="contact-status" role="status"></p></form><noscript><p>Contact us directly via <a href="https://wa.me/27815620614">WhatsApp</a> or <a href="mailto:info@faithresourceco.co.za">email</a>.</p></noscript>
       </div>
 
     </div>
@@ -62,5 +63,6 @@
   <footer class="frc-footer"><div class="frc-inner"><div><a class="frc-brand" href="index.html">Faith Resource Co.</a><p>Resources Rooted in Faith.</p></div><nav class="frc-socials" aria-label="Footer navigation"><a href="contact.html">Contact Us</a><a href="terms.html">Terms &amp; Conditions</a><a href="https://web.facebook.com/faithresourcecentre">Facebook</a><a href="https://www.instagram.com/faithresource/">Instagram</a><a href="https://wa.me/27815620614">WhatsApp</a></nav></div></footer>
 
 <script src="js/site.js"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>

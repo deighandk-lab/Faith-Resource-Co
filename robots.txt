@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deighandk-lab.github.io/Faith-Resource-Co/sitemap.xml
