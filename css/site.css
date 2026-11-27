@@ -9,3 +9,5 @@
 .frc-footer{border-top:1px solid var(--frc-border);padding:22px 0}.frc-footer .frc-brand{font-size:28px}.frc-footer p{color:var(--frc-muted)}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--frc-muted);outline-offset:4px}
 @media(max-width:768px){.frc-header .frc-inner,.frc-footer .frc-inner{justify-content:center;text-align:center;flex-direction:column}.frc-nav,.frc-socials{justify-content:center;gap:10px 16px}.frc-brand{font-size:28px}.frc-header{position:static}}
+
+.frc-cart-link{display:inline-flex;align-items:center;gap:5px}.frc-cart-link span{background:var(--frc-ink);color:white;border-radius:20px;padding:2px 7px;font-size:.75rem}.frc-add,.frc-cart-view{display:block;padding:10px;margin-top:8px;border:1px solid var(--frc-ink);border-radius:5px;background:transparent;color:var(--frc-ink);text-align:center;font:inherit;cursor:pointer}.frc-cart-status{font-size:.8rem;color:var(--frc-muted)}
